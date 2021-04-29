@@ -1,4 +1,11 @@
-# Acts Common Tracking Software
+# FASTRACK Integration
+
+This repo exists for the purposes of integrating https://github.com/demelian/fastrack with ACTS. The current work is being done in only a few folders:
+- /acts/Examples/Run/Reconstruction/Common/RecCKFTracks.cpp
+- /acts/Plugins
+Where I am planning on using FASTRACK to predict some tracks.
+
+## Acts Common Tracking Software
 
 or *A Common Tracking Software* if you do not like recursive acronyms
 
@@ -13,7 +20,7 @@ reconstruction in (high energy) physics experiments implemented in modern C++.
 
 More information can be found in the [Acts documentation](https://acts.readthedocs.io/).
 
-## Quick start
+### Quick start
 
 Acts is developed in C++ and is build using [CMake](https://cmake.org). Building
 the core library requires a C++17 compatible compiler,
@@ -32,7 +39,7 @@ look at the [getting started guide](docs/getting_started.md). If you find a bug,
 have a feature request, or want to contribute to Acts, have a look at the
 [contribution guidelines](CONTRIBUTING.rst).
 
-## Versioning and public API
+### Versioning and public API
 
 Release versions follow [semantic versioning](https://semver.org/spec/v2.0.0.html)
 to indicate whether a new version contains breaking changes within the public API.
@@ -40,7 +47,7 @@ Currently, only a limited part of the visible API is considered the public API
 and subject to the semantic versioning rules. The details are outlined in the
 [versioning and public API documentation](docs/versioning.rst).
 
-## Repository organization
+### Repository organization
 
 The repository contains all code of the Acts projects, not just the core library
 that a physics experiment is expected to use as part of its reconstruction code.
@@ -63,7 +70,7 @@ All optional components are disabled by default. Please see the
 -   `thirdparty/` contains external dependencies that are usually not available
     through the system package manager.
 
-## Authors and license
+### Authors and license
 
 Contributors to the Acts project are listed in the [AUTHORS](AUTHORS) file.
 
