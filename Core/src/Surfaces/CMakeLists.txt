@@ -1,0 +1,28 @@
+target_sources(
+  ActsCore
+  PRIVATE
+    AnnulusBounds.cpp
+    ConeBounds.cpp
+    ConeSurface.cpp
+    ConvexPolygonBounds.cpp
+    CylinderBounds.cpp
+    CylinderSurface.cpp
+    DiamondBounds.cpp
+    DiscSurface.cpp
+    DiscTrapezoidBounds.cpp
+    EllipseBounds.cpp
+    IntersectionHelper2D.cpp
+    LineBounds.cpp
+    LineSurface.cpp
+    PerigeeSurface.cpp
+    PlaneSurface.cpp
+    RadialBounds.cpp
+    RectangleBounds.cpp
+    StrawSurface.cpp
+    Surface.cpp
+    SurfaceArray.cpp
+    SurfaceError.cpp
+    TrapezoidBounds.cpp
+    detail/AlignmentHelper.cpp
+    VerticesHelper.cpp
+)

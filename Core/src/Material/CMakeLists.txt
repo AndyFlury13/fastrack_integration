@@ -1,0 +1,20 @@
+target_sources(
+  ActsCore
+  PRIVATE
+    AccumulatedMaterialSlab.cpp
+    AccumulatedSurfaceMaterial.cpp
+    AccumulatedVolumeMaterial.cpp
+    AverageMaterials.cpp
+    BinnedSurfaceMaterial.cpp
+    HomogeneousSurfaceMaterial.cpp
+    HomogeneousVolumeMaterial.cpp
+    Interactions.cpp
+    Material.cpp
+    MaterialGridHelper.cpp
+    MaterialMapUtils.cpp
+    MaterialSlab.cpp
+    ProtoSurfaceMaterial.cpp
+    ProtoVolumeMaterial.cpp
+    SurfaceMaterialMapper.cpp
+    VolumeMaterialMapper.cpp
+)
